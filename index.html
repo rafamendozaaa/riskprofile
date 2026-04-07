@@ -739,7 +739,7 @@ async function sendEmails({totalScore, profile, answersText, now}){
     submission_date:    now
   };
 
-  if(EMAILJS_PUBLIC_KEY === 'YOUR_PUBLIC_KEY'){
+  if(EMAILJS_PUBLIC_KEY === 'bK2DSUM8xSyLfKrBu'){
     statusEl.className = 'email-status error';
     statusEl.textContent = '⚠ EmailJS no está configurado aún. Configure las credenciales en el archivo HTML para habilitar el envío de emails.';
     return;
